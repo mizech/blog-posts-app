@@ -1,10 +1,4 @@
-//
-//  BlogPostsAppApp.swift
-//  BlogPostsApp
-//
-//  Created by Michael on 12.01.25.
-//
-
+import SwiftData
 import SwiftUI
 
 @main
@@ -12,6 +6,7 @@ struct BlogPostsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: BlogPost.self)
         }
     }
 }
