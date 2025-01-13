@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct BlogPostsAppApp: App {
+struct BlogPostsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
